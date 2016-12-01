@@ -9,11 +9,11 @@ KUBECTL_VERSION=v1.4.6
 # Version for the helm cli
 HELM_VERSION=v2.0.0
 # True builds docker image, false skips
-BUILD=false
+BUILD=true
 # True pushes image, false skips
-PUSH=false
+PUSH=true
 # True spins up a pod and attaches you to a shell session, false skips
 ATTACH=true
 # True deletes the kubectl and helm binaries
-DELETE=false
+DELETE=true
 ```
